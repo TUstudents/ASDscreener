@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asdscreener"
+version = "0.0.1"
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+description = "A Python library for screening API-polymer ASD systems."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Choose your license
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics", # If using RDKit heavily
+]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "pandas>=1.3",
+    "matplotlib>=3.4",
+    # "rdkit-pypi", # Add if RDKit is a core dependency from the start
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/ASDScreener" # Replace
+"Bug Tracker" = "https://github.com/yourusername/ASDScreener/issues" # Replace
