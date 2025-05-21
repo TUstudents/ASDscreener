@@ -2,6 +2,12 @@
 
 A Python library for screening and evaluating potential API-Polymer Amorphous Solid Dispersion (ASD) systems. This library aims to assist pharmaceutical scientists by providing tools for thermodynamic analysis, glass transition prediction, and qualitative stability assessment.
 
+## DISCLAIMER
+
+⚠️ Important Notice:
+This library is currently in a pre-alpha, developmental stage and is provided strictly for educational, conceptual exploration, and brainstorming purposes only.
+It is NOT intended for productive, commercial, or research decision-making use where accurate quantitative predictions are required. It is broken by design and likely never be fixed. Data is not curated and formulas not checked.
+
 ## Features (Planned)
 
 *   Calculation of miscibility indicators (Hansen Solubility Parameters, Flory-Huggins $\chi$).
